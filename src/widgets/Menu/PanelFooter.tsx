@@ -113,7 +113,7 @@ const PanelFooter: React.FC<Props> = ({
       <TextPrimary>Read our Presale LitePaper.</TextPrimary>
 
       <TextPrimary >Max Supply</TextPrimary>
-      <TextSecondary>300,000 bYield</TextSecondary>
+      <TextSecondary><a href="https://app.gitbook.com/@byieldfarm/s/byield-finance/launch-details/supplementary-information-regarding-yield-farms">500,000 bYield</a></TextSecondary>
               
       <SocialEntry>
       {cakePriceUsd ? (
