@@ -2215,6 +2215,10 @@ var socials = [
                 label: "English",
                 href: "https://t.me/byieldfinance",
             },
+            {
+                label: "Chinese",
+                href: "https://t.me/bYield_Finance_Chinese",
+            },
         ],
     },
     {
@@ -2392,8 +2396,8 @@ var Panel = function (props) {
         React.createElement(PanelBody, __assign({}, props)),
         React.createElement("a", { href: "https://paladinsec.co/projects/byield-finance/", target: "_blank" },
             React.createElement("img", { src: "https://paladinsec.co/pld/assets/audited-by-paladin-standard.svg", width: "370" })),
-        React.createElement("a", { href: "https://rugdoc.io/assets/2021/05/rugdoc-review-badge-for-light-bg.png" },
-            React.createElement(Image, { src: "/images/RugDoc.png", width: 370, height: 121, responsive: true, alt: "RugDocReview" })),
+        React.createElement("a", { href: "https://rugdoc.io/project/byield-finance/" },
+            React.createElement(Image, { src: "https://rugdoc.io/assets/2021/05/rugdoc-review-badge-for-light-bg.png", width: 370, height: 121, responsive: true, alt: "RugDocReview" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$D;
