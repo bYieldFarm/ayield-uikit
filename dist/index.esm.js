@@ -2323,7 +2323,7 @@ var templateObject_1$B;
 
 var Icons$1 = IconModule;
 Icons$1.MoonIcon; Icons$1.SunIcon; var LanguageIcon = Icons$1.LanguageIcon;
-var Container$4 = styled.div(templateObject_1$C || (templateObject_1$C = __makeTemplateObject(["\n  flex: none;\n  padding: 8px 4px;\n  background-color: ", ";\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n  background-color: #1c2c3c;\n  height: 300px;\n  align-self: center;\n"], ["\n  flex: none;\n  padding: 8px 4px;\n  background-color: ", ";\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n  background-color: #1c2c3c;\n  height: 300px;\n  align-self: center;\n"])), function (_a) {
+var Container$4 = styled.div(templateObject_1$C || (templateObject_1$C = __makeTemplateObject(["\n  flex: none;\n  padding: 8px 4px;\n  background-color: ", ";\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n  background-color: #1c2c3c;\n  height: 250px;\n  align-self: center;\n"], ["\n  flex: none;\n  padding: 8px 4px;\n  background-color: ", ";\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n  background-color: #1c2c3c;\n  height: 250px;\n  align-self: center;\n"])), function (_a) {
     var theme = _a.theme;
     return theme.nav.background;
 });
@@ -2390,6 +2390,10 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
+        React.createElement("a", { href: "https://paladinsec.co/projects/byield-finance/", target: "_blank" },
+            React.createElement("img", { src: "https://paladinsec.co/pld/assets/audited-by-paladin-standard.svg", width: "370" })),
+        React.createElement("a", { href: "https://rugdoc.io/assets/2021/05/rugdoc-review-badge-for-light-bg.png" },
+            React.createElement(Image, { src: "/images/RugDoc.png", width: 370, height: 121, responsive: true, alt: "RugDocReview" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$D;
