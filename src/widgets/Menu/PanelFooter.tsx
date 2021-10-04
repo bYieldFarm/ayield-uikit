@@ -60,7 +60,7 @@ const TextSecondary = styled(Text)`
   justify-content: space-between;
   font-size: 18px;
   font-weight: 600;
-  color: #14A098;
+  color: #ec6363;
   padding: 0 8px;
   flex-direction: column;
   margin-top: 4px;
@@ -113,7 +113,7 @@ const PanelFooter: React.FC<Props> = ({
       <TextPrimary>Read our Presale LitePaper.</TextPrimary>
 
       <TextPrimary >Max Supply</TextPrimary>
-      <TextSecondary><a href="https://app.gitbook.com/@byieldfarm/s/byield-finance/launch-details/supplementary-information-regarding-yield-farms">500,000 bYield</a></TextSecondary>
+      <TextSecondary><a href="https://app.gitbook.com/@byieldfarm/s/byield-finance/launch-details/supplementary-information-regarding-yield-farms">500,000 aYield</a></TextSecondary>
               
       <SocialEntry>
       {cakePriceUsd ? (
